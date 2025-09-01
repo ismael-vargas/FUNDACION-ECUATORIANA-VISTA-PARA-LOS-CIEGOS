@@ -11,4 +11,4 @@ export const newPatient = async (data) => {
     const response = await axios.post(`${apiBackend}/patients`, data);
     return response.data;
   }
-  
+  //hola mundo
